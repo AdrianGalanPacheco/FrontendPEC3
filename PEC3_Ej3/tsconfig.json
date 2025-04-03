@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+
+    // Versión de ECMAScript 2015 a la que se compilará el código TypeScript
+    "target": "es2015", 
+    // Sistema de módulos para el código. Formato usado en Node.js
+    "module": "commonjs", 
+    // Carpeta donde se guardarán los archivos compilados
+    "outDir": "./dist",   
+    // Carpeta raíz del código TypeScript
+    "rootDir": "./src", 
+    // Habilita todas las verificaciones estrictas de TypeScript, esto mejora la seguridad del código
+    "strict": true,
+    // Habilita la compilación incremental, guarda información entre compilaciones para acelerar futuras compilaciones
+    "incremental": true,
+    // Archivo donde TypeScript guardará la información de la compilación incremental
+    "tsBuildInfoFile": "./buildcache",
+  }
+}
